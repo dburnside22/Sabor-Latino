@@ -25,10 +25,10 @@
         templateUrl: '/templates/about.html'
       });
     $stateProvider
-      .state('follow', {
-        url: '/follow',
-        controller: 'FollowCtrl as follow',
-        templateUrl: '/templates/follow.html'
+      .state('photos', {
+        url: '/photos',
+        controller: 'PhotoCtrl as follow',
+        templateUrl: '/templates/photo.html'
       });
   }
 
