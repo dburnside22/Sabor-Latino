@@ -1,5 +1,6 @@
 body, html{
   height: 100%;
+  font-family: 'Noticia Text', serif;
 }
 
 #header{
@@ -27,7 +28,7 @@ h1{
 
 .hero-image{
   height: 65%;
-  background-image: url(herson-rodriguez-96102.jpg);
+  background-image: url(images/herson-rodriguez-96102.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,8 +59,9 @@ h1{
 }
 
 .about-section{
-  margin-left: 20%;
-  }
+  margin-top: 10%;
+  font-size: 20px;
+}
 
 .the-photos{
   margin-left: 10%;
@@ -68,5 +70,4 @@ h1{
 .the-photos img{
   width: 25%;
   margin: 2%;
-
 }
